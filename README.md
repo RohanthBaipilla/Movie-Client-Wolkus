@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+## Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Live demo: [Movie Hunters Web Application](https://movie-hunters-wolkus.vercel.app/signin)
 
-## Available Scripts
+# Movie Library Web Application
 
-In the project directory, you can run:
+This project is a movie library web application with user authentication and the ability to search movies, create movie lists, and manage privacy settings for those lists.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **User Authentication**
+   - Users can sign up and sign in to the application.
+   - Authentication is handled securely using JWT tokens.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Home Screen**
+   - After logging in, users are directed to the home screen.
+   - The home screen includes a search option uses the Debouncer concept to search for movies using the OMDB API.
+   - Users can view detailed information about each movie.
 
-### `npm test`
+3. **Movie Lists**
+   - Users can create lists of movies, similar to YouTube playlists.
+   - Different movie lists created by the user are displayed on the home screen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Privacy Settings**
+   - Users can set privacy settings for their movie lists.
+   - Lists can be either:
+     - **Public**: Anyone with the link can see the list.
+     - **Private**: Only the creator can see the list.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**: React.js, React Router, Axios
+- **Backend**: Node.js, Express.js, MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **Movie Data**: OMDB API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a copy of this project up and running on your local machine for development and testing purposes, follow these steps:
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js installed on your machine
+- npm (Node Package Manager) or yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository from GitHub:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   git clone https://github.com/RohanthBaipilla/Movie-Client-Wolkus.git
+   cd client
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install the dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   npm install
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Running the Application
 
-### Analyzing the Bundle Size
+1. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   npm start
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The application should now be running on `http://localhost:3000`.
 
-### Advanced Configuration
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. **Sign Up / Sign In**:
+   - Create a new account or log in with your credentials.
 
-### Deployment
+2. **Home Screen**:
+   - Search for movies using the search option.
+   - View details of each movie.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. **Movie Lists**:
+   - Create new movie lists.
+   - Manage your movie lists with options for privacy settings.
 
-### `npm run build` fails to minify
+4. **Privacy Settings**:
+   - Set your movie lists as public or private.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+
+Baipilla Swamy Eshwar Rohanth
+
+## Acknowledgments
+
+- This project was created as part of a web development learning experience.
+- Inspired by the need to manage and categorize movie preferences effectively.
+
+---
