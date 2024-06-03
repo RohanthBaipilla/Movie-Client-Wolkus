@@ -1,0 +1,120 @@
+.add-to-playlist-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.playlist-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.playlist-card {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.playlist-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.playlist-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.selected-playlist {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.selected-playlist h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.selected-playlist button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.selected-playlist button:hover {
+  background-color: #218838;
+}
+
+.create-playlist {
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.create-playlist h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.create-playlist input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.create-playlist button {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.create-playlist button:hover {
+  background-color: #5a6268;
+}
+
+.movie-title {
+  color: white;
+}

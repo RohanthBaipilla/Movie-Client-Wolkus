@@ -1,0 +1,149 @@
+/* PublicPlaylistPage.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 100px; /* Adjust margin-top to center vertically */
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.playlist-input {
+  width: calc(100% - 20px); /* Adjusted width to fit within container */
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.create-btn,
+.add-movie-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  width: calc(48% - 5px); /* Adjusted width to fit within container */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.create-btn:hover,
+.add-movie-btn:hover {
+  background-color: #0056b3;
+}
+
+.playlist-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.playlist-item {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.playlist-item:hover {
+  background-color: #f0f0f0;
+}
+
+.playlist-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.playlist-header span {
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.delete-btn,
+.public-btn,
+.delete-movie-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover,
+.public-btn:hover,
+.delete-movie-btn:hover {
+  background-color: #c82333;
+}
+
+.public-btn {
+  background-color: #28a745;
+}
+
+.public-btn:hover {
+  background-color: #218838;
+}
+
+.movie-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.movie-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.delete-movie-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-movie-btn:hover {
+  background-color: #c82333;
+}
+
+/* Adjust this for public playlist page */
+.public-playlist-page {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px; /* Adjust this value to suit your layout */
+}
+
+.playlist-details {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}

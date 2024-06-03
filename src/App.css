@@ -1,0 +1,15 @@
+/* Add your other global styles here */
+
+.main-content {
+  margin-top: 0; /* Adjust this value to match the height of your navbar */
+  background-color: #000000;
+}
+
+/* Optional: Add styles for the navbar if needed */
+.navbar {
+  height: 60px; /* Set the height of your navbar */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}

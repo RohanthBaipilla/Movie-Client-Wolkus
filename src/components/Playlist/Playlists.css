@@ -1,0 +1,81 @@
+.playlists-container {
+    margin: 20px;
+  }
+  
+  .playlists-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .playlists-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .playlist-form {
+    margin-bottom: 20px;
+  }
+  
+  .playlist-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .playlist-form button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .playlist-list {
+    width: 60%;
+  }
+  
+  .playlist-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .playlist-name {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .delete-button,
+  .add-movie-button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .add-movie-button {
+    background-color: #2196f3;
+  }
+  
