@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './SignUp.css';
 import 'react-toastify/dist/ReactToastify.css';
-import { ToastContainer, toast } from 'react-toast';
+import { ToastContainer, toast } from 'react-toastify';
 
 
 const validatePassword = (password) => {
@@ -44,13 +44,13 @@ function SignUp() {
       }
 
       const response = await axios.post('https://movie-server-wolkus.onrender.com/signup', form);
-      setSuccess(response.data.message); // Assuming the response contains a 'message' field
+      // setSuccess(response.data.message); // Assuming the response contains a 'message' field
       setError('');
+      console.log(response);
       toast.success("Verification Mail sent to your mail");
-      setTimeout(()=>{
-        console.log("object");
-      },1000)
-      navigate('/signin')
+      setTimeout(() => {
+        navigate('/signin');
+      }, 5000);
     } catch (err) {
       setError(err.response?.data?.message || err.message);
       setSuccess('');
