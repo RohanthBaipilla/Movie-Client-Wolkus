@@ -133,7 +133,7 @@ function AddToPlaylistPage() {
 
   const fetchPlaylists = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/playlists', {
+      const response = await axios.get('https://movie-server-wolkus.onrender.com/playlists', {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         }
@@ -155,7 +155,7 @@ function AddToPlaylistPage() {
     }
 
     try {
-      const response = await axios.post(`http://localhost:5000/playlists/${playlistId}/movies`, {
+      const response = await axios.post(`https://movie-server-wolkus.onrender.com/playlists/${playlistId}/movies`, {
         movieName: id // Assuming `id` is the movie title
       }, {
         headers: {
@@ -182,7 +182,7 @@ function AddToPlaylistPage() {
 
   const handleCreatePlaylist = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/playlists', {
+      const response = await axios.post('https://movie-server-wolkus.onrender.com/playlists', {
         name: newPlaylistName,
         // You can add other fields like description, owner, etc., as needed
       }, {
