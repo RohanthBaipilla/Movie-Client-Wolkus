@@ -47,8 +47,8 @@ To get a copy of this project up and running on your local machine for developme
 
 1. Clone the repository from GitHub:
 
-   git clone https://github.com/RohanthBaipilla/Movie-Client-Wolkus.git
-   cd client
+   - git clone https://github.com/RohanthBaipilla/Movie-Client-Wolkus.git
+   - cd client
 
 
 2. Install the dependencies:
