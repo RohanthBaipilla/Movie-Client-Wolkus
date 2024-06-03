@@ -1,7 +1,3 @@
-## Demo
-
-- Live demo: [Movie Hunters Web Application](https://movie-hunters-wolkus.vercel.app/signin)
-
 # Movie Library Web Application
 
 This project is a movie library web application with user authentication and the ability to search movies, create movie lists, and manage privacy settings for those lists.
@@ -37,6 +33,10 @@ This project is a movie library web application with user authentication and the
 ## Getting Started
 
 To get a copy of this project up and running on your local machine for development and testing purposes, follow these steps:
+
+## Demo
+
+- Live demo: [Movie Hunters Web Application](https://movie-hunters-wolkus.vercel.app/signin)
 
 ### Prerequisites
 
