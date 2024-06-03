@@ -1,4 +1,4 @@
-# Movie Library Web Application
+# Movie Hunters Web Application
 
 This project is a movie library web application with user authentication and the ability to search movies, create movie lists, and manage privacy settings for those lists.
 
