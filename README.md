@@ -53,7 +53,7 @@ To get a copy of this project up and running on your local machine for developme
 
 2. Install the dependencies:
 
-   npm install
+   - npm install
 
 
 ### Running the Application
