@@ -58,6 +58,10 @@ To get a copy of this project up and running on your local machine for developme
 
 ### Running the Application
 
+2. Edit the Backend url:
+
+   replace https://movie-server-wolkus.onrender.com with http://localhost:5000/
+
 1. Start the development server:
 
    npm start
