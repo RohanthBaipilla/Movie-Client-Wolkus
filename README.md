@@ -85,9 +85,4 @@ The application should now be running on `http://localhost:3000`.
 
 Baipilla Swamy Eshwar Rohanth
 
-## Acknowledgments
-
-- This project was created as part of a web development learning experience.
-- Inspired by the need to manage and categorize movie preferences effectively.
-
 ---
